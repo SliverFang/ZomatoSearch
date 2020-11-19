@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="@dimen/service_icon_image_size"
+        android:layout_height="@dimen/service_icon_image_size"
+        android:id="@+id/error_image"
+        android:src="@drawable/ic_search_black_24dp"
+        android:tint="@color/black"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="@dimen/medium_text_size"
+        android:text="@string/start_your_search"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorDeepGrey"
+        android:layout_below="@+id/error_image"/>
+</RelativeLayout>
